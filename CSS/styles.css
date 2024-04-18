@@ -32,18 +32,15 @@ body {
 }
 
 .primerbloque img {
-    width: 50%;
+    width: 100%;
 }
 
-.primerbloque > div {
-    width: 50%;
+#primerparrafo {
+    font-size: 50px;
 }
 
-.primerbloque p {
-    font-size: 1.5em;
-    text-align: left;
-    margin: 0;
-    padding: 0;
+#segundoparrafo {
+    font-size: 25px;
 }
 
 .segundobloque {
@@ -62,7 +59,7 @@ body {
 
 .columna-segundobloque {
     width: 150px;
-    height: 200px;
+    height: 225px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,6 +101,9 @@ footer {
     padding: 20px;
 }
 
+#bloque3 {
+    margin-top: 5%;
+}
 @media only screen and (max-width: 600px) {
     .pruebacabecera {
         width: 100%;
@@ -112,3 +112,4 @@ footer {
         display: block;
     }
 }
+
