@@ -1,17 +1,10 @@
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0%;
     font-family: "League Spartan", sans-serif;
-}
-
-section {
-    max-width: 600px; 
-    width: 100%;
-    padding: 0 20px; 
-    margin: 0 auto; 
-    font-family: "League Spartan", sans-serif;
-    
 }
 
 
@@ -32,20 +25,19 @@ section {
 }
 
 .pruebacabecera {
-    width: 100%; /* Ajustar el tamaño de la imagen según sea necesario */
-    height: 600px; /* Mantener la proporción de la imagen */
+    width: 766px; /* Ajustar el tamaño de la imagen según sea necesario */
+    height: 350px; /* Mantener la proporción de la imagen */
     font-family: "League Spartan", sans-serif;
 }
 
 .textosobreimagen{
     position: absolute;
     top: 50%; /* Posición verticalmente centrada */
-    left: 55%; /* Posición horizontalmente centrada */
+    left: 50%; /* Posición horizontalmente centrada */
+    right: -20%;
     transform: translate(-50%, -50%); /* Centrar el texto exactamente en el centro */
-    color: white; /* Color del texto */
-    font-size: 24px; /* Tamaño del texto */
-    font-weight: bold; /* Negrita */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+    color: rgb(0, 0, 0); /* Color del texto */
+    font-size: 200%; /* Tamaño del texto */
     font-family: "League Spartan", sans-serif;
 }
 
