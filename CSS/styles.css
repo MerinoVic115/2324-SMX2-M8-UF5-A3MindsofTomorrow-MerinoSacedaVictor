@@ -8,12 +8,12 @@ body {
 .contenedor {
     text-align: center;
     position: relative;
+    width: 100%;
 }
 
 .pruebacabecera {
     width: 100%;
-    max-width: 100%;
-    height: auto;
+    height: 50%;
     display: block;
 }
 
@@ -28,21 +28,34 @@ body {
 
 .primerbloque {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 .primerbloque img {
-    width: 100%;
+    width: 105%;
+    height: 100%;
 }
 
 #primerparrafo {
     font-size: 50px;
+    margin-right: 10%;
 }
 
 #segundoparrafo {
-    font-size: 25px;
+    font-size: 35px;
+    margin-right: 10%;
 }
 
+#primerparrafo2 {
+    font-size: 50px;
+    margin-left: 15%;
+    margin-top: -5%;
+}
+
+#segundoparrafo2 {
+    font-size: 40px;
+    margin-left: 15%;
+}
 .segundobloque {
     display: flex;
     flex-direction: column;
@@ -112,4 +125,3 @@ footer {
         display: block;
     }
 }
-
