@@ -108,15 +108,30 @@ body {
 }
 
 footer {
-    background-color: black;
+    background-color: #333;
     color: white;
-    text-align: center;
     padding: 20px;
+    display: flex;
+    text-align: left;
 }
+
+.columna {
+    flex: 1;
+    text-align: center;
+}
+
+
+
 
 #bloque3 {
     margin-top: 5%;
 }
+
+.columna {
+    text-align: left;
+    font-size: 50%;
+}
+
 @media only screen and (max-width: 600px) {
     .pruebacabecera {
         width: 100%;
