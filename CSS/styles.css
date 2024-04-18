@@ -30,10 +30,45 @@ body {
 .segundobloque{
     display: flex;
     background-color: aquamarine;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .imagenes-seccion2{
     width: 20%;
+}
+
+.columna-segundobloque {
+    flex-basis: calc(25% - 5px);
+    margin-right: 5px;
+    margin-bottom: 0px;
+}
+
+.columna-segundobloque img {
+    width: 100%;
+    height: auto;
+}
+.fila-segundobloque {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#texto2 {
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.columna-segundobloque {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {
