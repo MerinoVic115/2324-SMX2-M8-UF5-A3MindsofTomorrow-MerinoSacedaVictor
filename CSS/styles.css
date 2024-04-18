@@ -7,6 +7,34 @@ body {
     font-family: "League Spartan", sans-serif;
 }
 
+.primerbloque {
+    display: flex;
+ .img1{
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+ }   
+ #primerparrafo{
+   font-size: 45px; 
+   margin-left: 5%;
+   text-align: left;
+ }
+
+ #segundoparrafo {
+    font-size: 30px; 
+   margin-left: 5%;
+   text-align: left;
+ }
+}
+
+.segundobloque{
+    display: flex;
+    background-color: aquamarine;
+}
+
+.imagenes-seccion2{
+    width: 20%;
+}
 
 @media only screen and (max-width: 600px) {
     section {
