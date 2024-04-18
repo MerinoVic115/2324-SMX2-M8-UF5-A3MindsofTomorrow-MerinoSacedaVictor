@@ -110,4 +110,9 @@ body {
     margin-top: 0;
 }
 
-
+.tercerbloque {
+    display: flex;
+}
+.tercerbloque img {
+    width: 25%;
+}
