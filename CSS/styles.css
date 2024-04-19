@@ -1,14 +1,11 @@
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto&display=swap');
+
 
 body {
-    margin-left: 25%;
-    margin-right: 25%;
-    font-family: "Roboto", sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "Nunito Sans", sans-serif;
+
 }
 
 .contenedor {
@@ -30,6 +27,9 @@ body {
     transform: translate(-50%, -50%);
     color: rgb(0, 0, 0);
     font-size: 2em;
+    font-size:44px;
+    margin-right: -175px;
+    margin-left: auto;
 }
 
 .primerbloque {
@@ -48,7 +48,7 @@ body {
 }
 
 #segundoparrafo {
-    font-size: 35px;
+    font-size: 28px;
     margin-right: 10%;
 }
 
@@ -59,8 +59,10 @@ body {
 }
 
 #segundoparrafo2 {
-    font-size: 40px;
+    font-size: 19px;
     margin-left: 15%;
+    margin-right: 15%;
+    margin-top: -5%;
 }
 .segundobloque {
     display: flex;
@@ -83,13 +85,13 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    font-size: 10px;
 }
 
 .columna-segundobloque img {
     width: 100%;
     height: auto;
 }
-
 #texto2 {
     font-size: 40px;
     text-align: center;
@@ -137,7 +139,7 @@ footer {
     font-size: 50%;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .pruebacabecera {
         width: 100%;
         height: auto;
@@ -165,31 +167,36 @@ footer {
     .columna-segundobloque{
         width: 30%;
         padding: 20px;
+    
+    }
     #texto2 {
-        font-size: 44px;
+        font-size: 50px;
     }
+    .segundobloque {
+        padding: 40px;
     }
-
     .tercerbloque img{
         width: 49%;
         justify-content: center;
     }
-
-    /*.ultimo {
-        display: flex;
-        flex-direction: column;
-    }*/
+    #segundoparrafo2 {
+        font-size: 33px;
+    }
     .columna {
         width: 100%;
-        ;
-       
         margin-top: 10px;
 
     }
-    /*.columna:nth-child(3) {
-        margin-top: 10px; /* Cambia el orden de la tercera columna */
-    }/*
+    #primerparrafo {
+        font-size: 57px;
+        margin-left: 5%;
+    }
 
+    #segundoparrafo {
+        font-size: 33px;
+        margin-left: 5%;
+        margin-top: -5px;
+    }
     
 
 }
