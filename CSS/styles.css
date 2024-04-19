@@ -139,6 +139,13 @@ footer {
     font-size: 50%;
 }
 
+.menufooter {
+    display: flex;
+    margin-right: 50%;
+    margin-left: 5%;
+    width: 22%;
+}
+
 @media only screen and (max-width: 700px) {
     .pruebacabecera {
         width: 100%;
@@ -198,5 +205,13 @@ footer {
         margin-top: -5px;
     }
     
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menufooter{
+        display: flex;
+    }
 
 }
